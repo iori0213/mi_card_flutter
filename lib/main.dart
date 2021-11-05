@@ -10,6 +10,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'this is project mi card',
       home: Scaffold(
+        appBar: AppBar(
+          title: Text(
+            'mi_card',
+            textAlign: TextAlign.center,
+          ),
+        ),
         backgroundColor: Colors.teal,
         body: Container(),
       ),
